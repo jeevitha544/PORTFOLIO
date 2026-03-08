@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <style>
+            body{
+                 animation-name:fade;
+                animation-duration:10s;
+                animation-iteration-count: infinite;
+                animation-direction:alternate;
+                animation-play-state: running;
+                animation-timing-function: ;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-clip: border-box;
+                background-attachment: fixed;
+
+               
+            }
+            
+            @keyframes fade{
+                 0%{background-image: url(pic1.jpg)}
+                 20%{background-image: url(pic2.jpg)}
+                 40%{background-image:url(pic3.jpg)}
+                 55%{background-image:url(pic4.jpg)}
+                 70%{background-image:url(pic5.jpg)}
+                 80%{background-image:url(pic6.jpg)}
+                 100%{background-image:url(pic7.jpg)}
+
+                 
+            }
+            .head{
+                text-align: center;
+                position: relative;
+                top:25px;
+                  
+                color: whitesmoke;
+            }
+            .tail{
+               display:flex;
+               justify-content: center; 
+              
+             
+            }
+            
+            .tail1{
+                height:400px;
+                width:400px;
+                border:1px solid black;
+                background:transparent;
+                backdrop-filter: blur(20px);
+                
+                text-align: center;
+                margin-top:100px;
+                padding:20px;
+                border-radius: 15px;
+                 
+            transform:scale(0.8);
+            transition: 1s ease;
+          }
+          .tail1:hover{
+            transform:scale(1.1);
+            transition: 1s ease;
+          }
+          
+           button{
+                padding:5px;
+                font-size: medium;
+                font-style: bold;
+                color:black;
+                background-color:rgb(78, 126, 147) ;
+                cursor: pointer;
+                border-radius: 15px;
+            }
+            .heading1{
+                color: rgb(219, 229, 229);
+            }
+ 
+
+        </style>
+        </head>
+         <body>
+        <h1 class="head">MY PROJECTS</h1>
+        <div class="tail"> 
+        <div class="tail1">
+            
+            <h1 class="heading">Driver Drowsiness Detection System🚘</h1>
+            
+            <p class="heading1">Driver fatigue is a significant contributor to road accidents worldwide, often resulting in severe 
+injuries and fatalities. To address this issue this project presents a real-time driver drowsiness detection 
+system using computer vision techniques. The system leverages Python, OpenCV and dlib libraries to 
+monitor a driver’s eye and mouth movements through a webcam feed.Key facial landmarks are extracted to 
+calculate the Eye Aspect Ratio (EAR) and Mouth Aspect Ratio (MAR) which are used to detect prolonged 
+eye closure and yawning- key indicators of drowsiness.. Upon detecting signs of drowsiness the system 
+triggers immediate alerts using both audible alarms and email notifications via Mailgun thereby enhancing 
+the likelihood of driver response.</p> 
+<a href="home.html"><button>GO TO HOME PAGE</button></a>
+
+           </div> 
+        </div>
+
+        </body>

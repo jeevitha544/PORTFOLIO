@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <style>
+            body{
+                 animation-name:fade;
+                animation-duration:10s;
+                animation-iteration-count: infinite;
+                animation-direction:alternate;
+                animation-play-state: running;
+                animation-timing-function: ;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-clip: border-box;
+                background-attachment: fixed;
+
+               
+            }
+            
+            @keyframes fade{
+                 0%{background-image: url(pic1.jpg)}
+                 20%{background-image: url(pic2.jpg)}
+                 40%{background-image:url(pic3.jpg)}
+                 55%{background-image:url(pic4.jpg)}
+                 70%{background-image:url(pic5.jpg)}
+                 80%{background-image:url(pic6.jpg)}
+                 100%{background-image:url(pic7.jpg)}
+                 
+            }
+            .head{
+                text-align: center;
+                position: relative;
+                top:25px; 
+                color: whitesmoke;
+            }
+            .tail{
+               display:flex;
+               justify-content: center; 
+               
+            }
+            
+            .tail1{
+                height:300px;
+                width:400px;
+                border:1px solid black;
+                background:transparent;
+                backdrop-filter: blur(20px);
+                text-align: center;
+                margin-top:100px;
+                padding:20px;
+                border-radius: 15px;
+          }
+          .paragraph{
+            font-size: 18px;
+            font-style: bold;
+            color: rgb(219, 229, 229);
+          }
+          a{
+            text-decoration: none;
+            font-size:18px;
+            color: rgb(200, 163, 41);  
+            margin-top: 150px;
+          }
+          .tail1:hover{
+            transform:scale(0.9);
+            transition: 1s ease;
+          }
+        </style>
+        </head>
+         <body>
+        <h1 class="head">MY PROJECTS</h1>
+        <div class="tail"> 
+        <div class="tail1">
+            
+            <h1 class="heading">Driver Drowsiness Detection System🚘</h1>
+            <a href="project1.html">CLICK HEAR <br>VIEW PROJECT ABSTRACT</a><br><br><br>
+            <p class="paragraph">My Project is real-time Driver drowsiness detection system by using computer vision</p>
+           </div> 
+        </div>
+
+        </body>
