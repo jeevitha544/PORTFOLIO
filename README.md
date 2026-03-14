@@ -20,7 +20,7 @@ This is my first portfolio website, which I have built using HTML and CSS..
     Project Showcase: Highlights my flagship Driver Drowsiness Detection System, which utilizes Python and Computer Vision.</li>
     <li>
     Visual Design: Features high-quality, nature-inspired backgrounds and a professional, circular-cropped profile image layout.
-    </li></ol>
+    </li></ol></ul>
 
 <h3>Tech Stack</h3>
 <ol>
@@ -28,9 +28,9 @@ This is my first portfolio website, which I have built using HTML and CSS..
 <li>Styling: Custom CSS for layout and responsiveness</li>
 <li>Project Background: Python, OpenCV (Computer Vision)</li>
 </ol>
-</ul>
+ 
 <h3>Professional Background</h3>
-    <p>I am a BCA graduate specializing in developing interactive web pages. My passion lies in bridging the gap between complex AI-powered solutions—like my Driver Drowsiness Detection project—and user-friendly web interfaces.</p>
+<p>I am a BCA graduate specializing in developing interactive web pages. My passion lies in bridging the gap between complex AI-powered solutions—like my Driver Drowsiness Detection project—and user-friendly web interfaces.</p>
 
 </body>
 </html>
